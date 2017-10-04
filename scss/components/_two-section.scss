@@ -1,0 +1,48 @@
+.two-column-parent{
+	padding: 2em 0em;
+
+}
+.two-item {
+	h1{
+		color: $blue;
+	}
+	hr{
+		display: inline-block;
+		width: 40%;
+		margin: 0.5em 0em 1em 0em;
+		background: #eee;
+		height: 5px;
+		border: none;
+		max-width: 8em;
+	}
+}
+.phones{
+	max-width: 600px;
+	width: 100%;
+	margin: auto;
+	img{
+		width: 100%;
+	}
+}
+.content-section{
+	padding: 3em 0em 0em 0em;
+}
+
+@media(min-width: $bp-lg){
+	.two-column-parent{
+		display: flex;
+		align-items: center;
+		padding: 8em 0em 0em 0em;
+	}
+	.phones{
+	}
+	.two-item{
+		width: 50%;
+		hr{
+			margin: 0em 0em 2em 0em;
+		}
+	}
+	.content-section{
+			padding: 0em 0em 0em 0em;
+	}
+}

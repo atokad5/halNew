@@ -1,0 +1,159 @@
+header{
+  position: relative;
+  padding-top: 35px;
+
+
+}
+.is-the-header-bg{
+  @include isBgLayer(fixed);
+  background-image: url('../../assets/img/home/homehero.jpeg');
+  background-position: bottom;
+
+  &:after{
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: -webkit-linear-gradient(left, rgba(#274060, 2) , rgba(purple, 0.9));
+
+  }
+}
+
+
+
+.header-inner-cont{
+  position: relative;
+  z-index: 4;
+  padding: 4em 0em 3em 0em;
+  font-size: 120%;
+  color: white;
+  max-width: 700px;
+
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  .fa{
+    position: relative;
+    left: 10px;
+  }
+}
+
+.has-container-text{
+  display: block;
+  margin:0;
+  overflow: hidden;
+  position: relative;
+
+  .is-hidden-text{
+    transform: translateY(60%);
+    opacity: 0;
+    position: relative;
+    padding-bottom: 0em;
+    transition: all 520ms ease;
+  }
+
+  &.is--text{
+    .is-hidden-text{
+      opacity: 1;
+      transform: translateY(0%);
+      position: relative;
+      padding-bottom: 0em;
+    }
+  }
+}
+
+
+.hero-spacer{
+  margin: 1em 0em 0em 0em;
+  width: 0px;
+  height: 4px;
+  background: #87D3B7;
+  border: none;
+  transition: all 300ms ease;
+
+  &.is-avail{
+    width: 80px;
+  }
+}
+.tagline{
+  padding: 1em 0em;
+  p{
+    line-height: 1.3;
+  }
+}
+
+
+@media(min-width: $bp-lg){
+  header{
+    position: relative;
+    padding-top: 0px;
+  }
+  .header-inner-cont{
+    padding: 9em 0em 8em 0em;
+    color: white;
+
+    a{
+      color: white;
+      font-size: 1.6em;
+      transition: all 200ms ease;
+
+      &:hover{
+        color: white;
+      }
+    }
+  }
+  .is-white-back{
+    position: relative;
+    display: inline-block;
+    padding-right: 0.3em;
+
+    &:after{
+      content: "";
+      z-index: -1;
+      // background: white;
+      // background-image: url('../../assets/img/home/texture.png');
+      position: absolute;
+      top: 0; left: 0;
+      width: 0%;
+      transition: all 400ms ease;
+      height: 100%;
+    }
+
+    &.is-avail{
+
+      &:after{
+        width: 100%;
+      }
+
+    }
+
+  }
+
+  .is-the-header-bg{
+    right: 0;
+    left: auto;
+    width: 100%;
+
+    &:after{
+      content: "";
+      // background: -webkit-linear-gradient(left, rgba(#084C61, 0.93) , rgba(#084C61, 1));
+
+    }
+  }
+
+  .hero-spacer{
+    margin: 1em 0em;
+    height: 6px;
+    display: block;
+    background: #87D3B7;
+
+    &.is-avail{
+      width: 80px;
+    }
+  }
+
+
+
+
+}
