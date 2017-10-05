@@ -18,12 +18,6 @@
 						<div class="inner-item">
 							<p class="section-item-title">Section Title</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis quae corporis minima quia placeat aperiam voluptatum, est tempore fugit incidunt.</p>
-						</div>
-					</div>
-
-					<div class="three-item">
-						<div class="inner-item">
-							<p class="section-item-title">Section Title</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis quae corporis minima quia placeat aperiam voluptatum, est tempore fugit incidunt.</p>
 						</div>
 					</div>
@@ -31,6 +25,15 @@
 					<div class="three-item">
 						<div class="inner-item">
 							<p class="section-item-title">Section Title</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis quae corporis minima quia placeat aperiam voluptatum, est tempore fugit incidunt.</p>
+							
+						</div>
+					</div>
+
+					<div class="three-item">
+						<div class="inner-item">
+							<p class="section-item-title">Section Title</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis quae corporis minima quia placeat aperiam voluptatum, est tempore fugit incidunt.</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis quae corporis minima quia placeat aperiam voluptatum, est tempore fugit incidunt.</p>
 						</div>
 					</div>

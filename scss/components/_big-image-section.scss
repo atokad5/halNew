@@ -1,0 +1,48 @@
+.the-section-four{
+  padding: 3em 0em;
+}
+
+.big-image{
+  width: 100%;
+  img{
+    width: 100%;
+  }
+}
+
+.the-bg-content{
+  background: #eee;
+  position: relative;
+  z-index: 4;
+  width: 95%;
+  margin: -3em auto 0 auto;
+}
+.the-bg-content-inner{
+  padding: 1em;
+}
+
+
+
+@media(min-width: $bp-lg){
+  .the-section-four{
+    padding: 0em 0em 15em 0em;
+    .inner{
+      position: relative;
+  
+    }
+  }
+  .big-image{
+    max-width: 80%;
+  }
+  .the-bg-content{
+    background: white;
+    width: 40%;
+    position: absolute;
+    top: 50%; right: 0;
+    margin: 0;
+    transform: translateY(-50%);  
+    box-shadow: 20px 20px 0px $blue;
+  }
+  .the-bg-content-inner{
+    padding: 5em 4em;
+  }
+}

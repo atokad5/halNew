@@ -7,5 +7,5 @@
 <?php get_template_part('partials/home/sectionone'); ?>
 <?php get_template_part('partials/home/sectiontwo'); ?>
 <?php get_template_part('partials/home/sectionthree'); ?>
-
+<?php get_template_part('partials/home/sectionfour'); ?>
 <?php get_footer(); ?>

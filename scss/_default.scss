@@ -28,7 +28,9 @@ section{
 figure{
 	margin: 0;
 }
-
+input{
+	-webkit-appearance: none;
+}
 
 .text-center{
 	text-align: center;
@@ -53,6 +55,7 @@ figure{
 	float: left;
 	color: $black !important;
 	font-family: $headerFont;
+	text-decoration: none;
 	position: relative;
 	.fa{
 		

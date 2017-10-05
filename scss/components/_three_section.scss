@@ -57,7 +57,18 @@
 }
 @media(min-width: $bp-lg){
 	.the-section-three{
-		padding: 7em 0em;
+		padding: 3em 0em;
+		position: relative;
+
+		// &:before{
+		// 	content: '';
+		// 	position: absolute;
+		// 	bottom: 15%; left: 0;
+		// 	width: 100%;
+		// 	height: 50%;
+		// 	transform: skewY(-2deg);
+		// 	background: #f2f2f2;
+		// }
 	}
 	.three-column{
 		text-align: center;

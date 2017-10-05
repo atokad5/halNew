@@ -1,0 +1,45 @@
+.the-modal{
+  position: fixed;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 2%; height: 1%;
+  background: -webkit-linear-gradient(left, rgba(#274060, 2) , rgba(purple, 0.9));
+  z-index: 99999999;
+  visibility: hidden;
+  transition: all 300ms ease;
+
+  &.is-showing{
+    visibility: visible;
+    width: 100%;
+  }
+
+  &.is-set-height{
+    height: 100%;
+  }
+
+}
+
+.is-showing-form{
+  max-width: 800px; 
+  width: 100%;
+  padding: 3em;
+  position: fixed;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -20%);
+  // background: white;
+  transition:  all 900ms ease;
+  visibility: hidden;
+  opacity: 0;
+  color: white;
+  
+  &.is-contact-showing{
+    visibility: visible;
+    transform: translate(-50%, -50%);
+    transition-delay: 320ms;
+    opacity: 1;
+  }
+}
+.prevent-overflow{
+  position: relative;
+  height: 100vh;
+}

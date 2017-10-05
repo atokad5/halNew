@@ -12,7 +12,7 @@ var gulp = require('gulp'),
 
 
  settings = {
-  server: 'http://localhost:8888/hal/',
+  server: 'http://localhost:8181/hal/',
   siteFiles: '**/*.php',
   sassFiles: 'scss/**/*.scss',
   cssDest: 'assets/css/',
@@ -32,7 +32,7 @@ gulp.task('serve', ['sass'], function(){
   browserSync.init({
     proxy: settings.server,
     notify: false
-  }) 
+  })
 
   gulp.watch(settings.siteFiles).on('change', browserSync.reload)
   gulp.watch(settings.jsRl , ['js']).on('change', browserSync.reload)

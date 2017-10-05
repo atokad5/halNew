@@ -16,7 +16,7 @@
       </div>
 
       <div class="social-link-hero">
-         <a href="" class="cta">Sign Up <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+         <a href="" class="cta has-modal">Sign Up <i class="fa fa-caret-right" aria-hidden="true"></i></a>
          <a href="" class="cta">Contribute <i class="fa fa-github" aria-hidden="true"></i></a>
          <div class="clear-block"></div>
       </div>
