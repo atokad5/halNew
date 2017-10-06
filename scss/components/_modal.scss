@@ -43,3 +43,72 @@
   position: relative;
   height: 100vh;
 }
+
+.form-container-contact{
+  max-width: 400px;
+  width: 90%;
+  margin: auto;
+  position: relative;
+
+  input{
+    width:  100%;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 1em;
+  }
+  input[type="email"]{
+    border-bottom: 2px solid $blue !important;
+    background: transparent;
+    border: none;
+    color: white;
+    font-family: $headerFont;
+    font-size: 1.3em;
+    outline: none;
+    &::placeholder{
+      color: white;
+      font-family: $headerFont;
+      font-size: 1.3em;
+    }
+  }
+  input[type="submit"]{
+    background: $blue;
+    font-family: $headerFont;
+    font-size: 1.4em;
+    color: $black;
+    border: none;
+  }
+}
+.md-close{
+  position: absolute;
+  top: -100%; right: 0;
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: none;
+  transition: all 200ms ease;
+  cursor: pointer;
+  outline: none;
+
+  span{
+    position: absolute;
+    width: 100%; height: 3px;
+    background: white;
+    top: 0; left: 0;
+    transition: all 400ms ease;
+  }
+
+  &:hover{
+    .top-ini{
+      transform: rotate(135deg);
+    }
+    .bot-ini{
+      transform: rotate(45deg);
+    }
+  }
+}
+.top-ini{
+  transform: rotate(45deg);
+}
+.bot-ini{
+  transform: rotate(-45deg);
+}

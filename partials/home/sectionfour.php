@@ -9,7 +9,7 @@
                 <h4>Developers</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate iste vero qui. Quod nemo dolores saepe excepturi animi! Eveniet, voluptas.</p>
                 <div class="social-link-hero">
-                  <a href="" class="cta has-modal">Contribute <i class="fa fa-github" aria-hidden="true"></i></a>
+                  <a href="" class="cta">Contribute <i class="fa fa-github" aria-hidden="true"></i></a>
                   <div class="clear-block"></div>
                 </div>
               </div>
@@ -23,7 +23,7 @@
                 <h4>Hal Users</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate iste vero qui. Quod nemo dolores saepe excepturi animi! Eveniet, voluptas.</p>
                 <div class="social-link-hero">
-                  <a href="" class="cta">Sign Up <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                  <a href="" class="cta has-modal">Sign Up <i class="fa fa-caret-right" aria-hidden="true"></i></a>
                   <div class="clear-block"></div>
                 </div>
               </div>

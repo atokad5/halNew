@@ -37,11 +37,22 @@
    <div class="inner" style="position: relative;">
       <div class="prevent-overflow">
         <div class="is-showing-form">
-          <div class="contact-content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias distinctio aspernatur veniam illum, animi odio tempora maxime praesentium fuga nesciunt tenetur voluptate aliquid eveniet inventore error iusto accusamus ipsa, quis doloremque soluta? Nihil, ipsam? Iusto libero rem reprehenderit. Dicta, porro!
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias distinctio aspernatur veniam illum, animi odio tempora maxime praesentium fuga nesciunt tenetur voluptate aliquid eveniet inventore error iusto accusamus ipsa, quis doloremque soluta? Nihil, ipsam? Iusto libero rem reprehenderit. Dicta, porro!</p>
-              
-          </div>
+            <div class="contact-content">
+             <div class="form-container-contact">
+              <form action="">
+                <div class="signup-input">
+                  <input type="email" name="email" placeholder="Email Address">
+                </div>
+                <div class="signup-input">
+                  <input type="submit" value="Sign Up">
+                </div>
+              </form>
+              <button class="md-close has-modal">
+                <span class="top-ini"></span>
+                <span class="bot-ini"></span>
+              </button>    
+             </div>
+            </div>
           </div>
         </div>
 
